@@ -1,0 +1,163 @@
+body {
+  margin: 5px;
+  padding: 0;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/724/474/485/pokemon-go-logo-minimalism-wallpaper-preview.jpg);
+
+}
+
+
+.navbar {
+  display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+.a {
+ 
+color: rgba(255, 255, 255, 0.752);
+margin-left: 10px;
+width: 80px;
+margin-bottom: 10px;
+padding: .5rem;
+
+}
+
+.btn{
+  background-color: rgba(239, 238, 235, 0.599);
+
+}
+
+.btnNormal{
+  background-color: #a8a77a7c;
+ 
+}
+.btnFire{
+  background-color: #ee823082;
+}
+.btnWater{
+  background-color: #6390f08b;
+}
+.btnGrass{
+  background-color:#79c74c74;
+}
+.btnElectric{
+  background-color:#f7ce2c88;
+}
+.btnIce{
+  background-color:#96d9d67a;
+}
+.btnFighting{
+  background-color:#c22d2894;
+}
+.btnPoison{
+  background-color:#a33ea18c;
+}
+.btnGround{
+  background-color:#e2bf65a0;
+}
+.btnFlying{
+  background-color:#aa8ff3af;
+}
+.btnPsychic{
+  background-color:#f955869e;
+}
+.btnRock{
+  background-color:#b6a13693;
+}
+.btnGhost{
+  background-color:#7357978d;
+}
+.btnDragon{
+  background-color:#6d35fc95;
+}
+.btnBug{
+  background-color:#a6b91a97;
+}
+.btnSteel{
+  background-color:#b7b7ce78;
+}
+.btnFairy{
+  background-color:#d685ad96;
+}
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar img {
+ 
+  height: 300px;
+  width: 600px;
+}
+
+.data {
+  background-color: aliceblue;
+  border-radius: 10px;
+  align-items: center;
+  margin: 30px;
+}
+
+.data img {
+  background-color: rgb(165, 42, 42);
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.data h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data .circulo {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(240, 248, 255);
+  border: 1px solid rgba(0, 0, 0, 0.441);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -50px 70px;
+  padding: 1%;
+}
+
+.data .circulo>p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.data .base {
+  text-align: center;
+
+}
+.data .type2{
+  text-align: center;
+}
+
+.data:hover .circulo{
+  opacity: 0;
+ }
+
+.data:hover  {
+	transform: scale(1.5, 1.5);
+  transition: 0.3s linear;
+
+}
+
+
+
+
+
